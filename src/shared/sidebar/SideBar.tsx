@@ -118,7 +118,7 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
           <div className="at-offcanvas-top d-flex align-items-center justify-content-between">
             <div className="at-offcanvas-logo">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
-                <img data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa" width={30} height={30} />
+                <img data-width="30" src="/assets/imgs/template/logo/LOGO.png" alt="Orisa" width={30} height={30} />
                 <h6 className="fw-700 fz-24 mb-0">Orisa</h6>
               </Link>
             </div>
@@ -130,10 +130,11 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
           </div>
 
           <div className="at-offcanvas-content d-none d-xl-block">
-            <h3 className="at-offcanvas-title">Howdy!</h3>
+            <h3 className="at-offcanvas-title">Scale Your Brand With AI Video</h3>
             <p className="fz-font-lg">
-              We blend strategy, creativity, and technology to help brands grow, connect, and stand out in an ever-evolving digital world.
-            </p>
+  AdsAI creates AI-powered ad films, AI films, corporate videos, product explainers,
+  documentaries, and social media video ads designed to engage audiences and deliver measurable results.
+</p>
           </div>
 
           <div className="at-offcanvas-menu d-xl-none pb-50">
@@ -152,24 +153,29 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
 
           <div className="at-offcanvas-contact">
             <h5 className="at-offcanvas-title sm">Get in touch</h5>
-            <ul>
-              <li>
-                <a className="fz-font-lg" href="tel:(212) 555-7398">
-                  (212) 555-7398
-                </a>
-              </li>
-              <li>
-                <a className="fz-font-lg" href="mailto:hello@orisa.com">
-                  hello@orisa.com
-                </a>
-              </li>
-              <li>
-                <a className="fz-font-lg" href="#" onClick={(e) => e.preventDefault()}>
-                  245 Fifth Avenue, Suite 1800 <br />
-                  New York, NY 10016, USA
-                </a>
-              </li>
-            </ul>
+          <ul>
+  <li>
+    <a className="fz-font-lg" href="tel:+919133187000">
+      +91 91331 87000
+    </a>
+  </li>
+  <li>
+    <a className="fz-font-lg" href="tel:+919052204000">
+      +91 90522 04000
+    </a>
+  </li>
+  <li>
+    <a className="fz-font-lg" href="mailto:business@adsai.ai">
+      business@adsai.ai
+    </a>
+  </li>
+  <li>
+    <a className="fz-font-lg" href="#" onClick={(e) => e.preventDefault()}>
+      Shutter No 1 Ground Floor, Plot A-11, Survey No: 615 & 617, <br />
+      Moulali Industrial Area, Hyderabad, Telangana – 500040, India
+    </a>
+  </li>
+</ul>
           </div>
 
           <div className="at-offcanvas-social">
