@@ -119,7 +119,7 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
             <div className="at-offcanvas-logo">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
                 <img data-width="30" src="/assets/imgs/template/logo/LOGO.png" alt="Orisa" width={30} height={30} />
-                <h6 className="fw-700 fz-24 mb-0">Orisa</h6>
+                <h6 className="fw-700 fz-24 mb-0">ADS AI</h6>
               </Link>
             </div>
             <div className="at-offcanvas-close-btn">
