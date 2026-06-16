@@ -130,7 +130,7 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
           </div>
 
           <div className="at-offcanvas-content d-none d-xl-block">
-            <h3 className="at-offcanvas-title">Scale Your Brand With AI Video</h3>
+            <h5 className="at-offcanvas-title">Scale Your Brand With AI Video</h5>
             <p className="fz-font-lg">
   AdsAI creates AI-powered ad films, AI films, corporate videos, product explainers,
   documentaries, and social media video ads designed to engage audiences and deliver measurable results.

@@ -25,7 +25,7 @@ export default function Section1() {
             {/* at-hero-area */}
             <div
                 className="at-hero-area scene p-relative z-index-1 bg-position fix at-hero-spacing bg-primary-1 overflow-hidden"
-                data-background="/assets/imgs/images/bg.png"
+                data-background="/assets/imgs/pages/bg-img.webp"
                 data-parallax-scene
                 data-scalar-x="18"
                 data-scalar-y="18"
@@ -82,7 +82,7 @@ export default function Section1() {
                                         muted
                                         loop
                                         playsInline
-                                        poster="/assets/imgs/pages/img-2.webp"
+                                        poster="/assets/imgs/images/img-31.jpg"
                                     >
                                         <source src="/assets/imgs/video/video-1.mp4" type="video/mp4" />
                                     </video>
