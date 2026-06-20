@@ -3,13 +3,13 @@ import Marquee from "react-fast-marquee";
 // About 2 Section 4 - Moving gallery (carousel ticker left)
 
 const GALLERY_IMGS = [
-    { src: "/assets/imgs/pages/img-130.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-131.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-132.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-133.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-134.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-135.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-136.webp", alt: "orisa" },
+    { src: "/assets/imgs/images/img-35.jpg", alt: "adsai" },
+    { src: "/assets/imgs/images/img-36.jpg", alt: "adsai" },
+    { src: "/assets/imgs/images/img-37.jpg", alt: "adsai" },
+    { src: "/assets/imgs/images/img-38.jpg", alt: "adsai" },
+    { src: "/assets/imgs/images/img-39.jpg", alt: "adsai" },
+    { src: "/assets/imgs/images/img-40.jpg", alt: "adsai" },
+    { src: "/assets/imgs/images/img-41.jpg", alt: "adsai" },
 ];
 
 export default function Section4() {

@@ -6,7 +6,7 @@ import Section3 from "@/shared/sections/index-3/Section12";
 export default function Archive1Page() {
   return (
     <>
-      <PageMeta title="Orisa - Archive1" />
+      <PageMeta title="adsai-blog" />
                 <Section1 />
                 <Section2 />
                 <Section3 />

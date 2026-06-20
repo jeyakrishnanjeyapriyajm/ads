@@ -31,7 +31,7 @@ export default function Section12() {
                         <div className="col-lg-2">
                             <div className="ripple-image ripples rounded-3 overflow-hidden d-inline-flex">
                                 <img
-                                    src="/assets/imgs/pages/img-74.webp"
+                                    src="/assets/imgs/images/img-50.jpg"
                                     alt="adsai"
                                     width={120}
                                     height={120}
@@ -41,18 +41,18 @@ export default function Section12() {
                         <div className="col-lg-5">
                             <span className="at-btn common-black bg-transparent mb-10 rounded-0 p-0">
                                 <span className="text-uppercase">
-                                    <span className="text-1">AI Insights</span>
-                                    <span className="text-2">AI Insights</span>
+                                    <span className="text-1">Start Your Campaign</span>
+                                    <span className="text-2">Start Your Campaign</span>
                                 </span>
                                 <i>
                                     {ARROW_SVG}
                                     {ARROW_SVG}
                                 </i>
                             </span>
-                            <h2>Stay Ahead with AI Video Trends</h2>
+                            <h2>Ready to Create Your AI Ad Film?</h2>
                             <p className="fz-font-xl mb-0">
-                                Get AI advertising insights, video marketing trends, and creative strategies <br />
-                                to help your brand grow faster — delivered monthly, no spam.
+                                Share your email and our team will contact you to discuss your brand, <br />
+                                campaign goals, and the right AI video solution for your business.
                             </p>
                         </div>
                         <div className="col-lg-4 ms-auto align-self-end">
@@ -67,7 +67,7 @@ export default function Section12() {
                                 </button>
                             </div>
                             <p className="mb-0 pt-20">
-                                By clicking the button, you are <br /> agreeing with our{" "}
+                                By submitting your email, you are <br /> agreeing with our{" "}
                                 <Link to="#" className="neutral-900">
                                     Term & Conditions
                                 </Link>

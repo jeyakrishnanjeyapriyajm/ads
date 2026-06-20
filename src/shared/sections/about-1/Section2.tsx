@@ -106,13 +106,13 @@ export default function Section2() {
                             data-fade-from="bottom"
                             data-ease="bounce"
                         >
-                            <Link className="at-btn-circle bg-neutral-700" to="/pricing">
+                            <Link className="at-btn-circle bg-neutral-700" to="/contact-1">
                                 {ARROW_CIRCLE_SVG}
                             </Link>
-                            <Link className="at-btn z-index-1 bg-neutral-700" to="/pricing">
+                            <Link className="at-btn z-index-1 bg-neutral-700" to="/contact-1">
                                 Start Your AI Ad Film
                             </Link>
-                            <Link className="at-btn-circle bg-neutral-700" to="/pricing">
+                            <Link className="at-btn-circle bg-neutral-700" to="/contact-1">
                                 {ARROW_CIRCLE_SVG}
                             </Link>
                         </div>

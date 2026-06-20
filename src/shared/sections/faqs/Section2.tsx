@@ -4,35 +4,35 @@ import { Link } from "react-router-dom";
 const TOPICS = [
     {
         number: "01",
-        title: "Overview",
+        title: "AI Ad Films",
         href: "#",
         description:
-            "Essential questions to understand who we are, what we do, and who we work with.",
-        image: "/assets/imgs/pages/img-161.webp",
+            "Learn how ADS AI creates cinematic AI-powered ad films for brands, campaigns, and digital platforms.",
+        image: "/assets/imgs/images/img-70.jpg",
     },
     {
         number: "02",
-        title: "Services",
+        title: "Video Services",
         href: "#",
         description:
-            "Details about our solutions, consulting offerings, and system capabilities.",
-        image: "/assets/imgs/pages/img-162.webp",
+            "Questions about promotional videos, corporate films, product explainers, documentary videos, and social media ads.",
+        image: "/assets/imgs/images/img-71.jpg",
     },
     {
         number: "03",
-        title: "Process",
+        title: "Production Process",
         href: "#",
         description:
-            "How we approach problems, execute projects, and collaborate with clients.",
-        image: "/assets/imgs/pages/img-163.webp",
+            "Understand our workflow from discovery call, strategy, creative concept, AI production, editing, and delivery.",
+        image: "/assets/imgs/images/img-72.jpg",
     },
     {
         number: "04",
-        title: "Support",
+        title: "Delivery & Support",
         href: "#",
         description:
-            "Post-launch support, maintenance, updates, and system optimization.",
-        image: "/assets/imgs/pages/img-164.webp",
+            "Find answers about timelines, video formats, revisions, platform-ready files, and campaign launch support.",
+        image: "/assets/imgs/images/img-73.jpg",
     },
 ];
 
@@ -42,7 +42,7 @@ export default function Section2() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h3>Browse by topic</h3>
+                        <h3>Browse ADS AI topics</h3>
                     </div>
                 </div>
                 <div className="row g-3 pt-100">
@@ -80,7 +80,7 @@ export default function Section2() {
                                         <img
                                             className="img-cover rounded-2"
                                             src={topic.image}
-                                            alt="orisa"
+                                            alt="adsai"
                                             width={400}
                                             height={260} loading="lazy" />
                                     </div>

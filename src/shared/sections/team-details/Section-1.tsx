@@ -28,21 +28,20 @@ const PLUS_ICON = (
 );
 
 const KEY_ACHIEVEMENTS: { bold?: string; text?: string; textBefore?: string }[] = [
-    { bold: "8+ years", text: " managing digital & creative projects" },
-    { bold: "120+ projects", text: " delivered across branding, web, and marketing" },
-    { bold: "30+ cross-functional teams", text: " led and coordinated" },
-    { bold: "98% on-time", text: " delivery rate" },
-    { textBefore: "Managed projects with budgets ", bold: "up to $2M+" },
+    { bold: "7-step process", text: " from discovery call to final delivery" },
+    { bold: "AI ad films", text: " produced for digital campaigns and brand growth" },
+    { bold: "Multiple formats", text: " delivered for Meta, YouTube, Instagram, and ads" },
+    { bold: "Creative strategy", text: " focused on attention, storytelling, and conversion" },
+    { textBefore: "Content production handled with ", bold: "strategy, AI, and studio-level execution" },
 ];
 
 const RESPONSIBILITIES = [
-    "Oversee end-to-end project execution",
-    "Align creative, design, and development teams",
-    "Manage timelines, scope, and resources",
-    "Act as the main point of contact for clients",
-    "Ensure quality, consistency, and delivery excellence",
+    "Understand brand vision, audience, and campaign goals",
+    "Build AI ad film concepts with strong creative direction",
+    "Plan scripts, storyboards, visuals, voice, and pacing",
+    "Create AI-powered visuals, motion, and video content",
+    "Deliver final assets optimized for digital platforms",
 ];
-
 const SOCIAL_LINKS = [
     {
         label: "Twitter",
@@ -145,16 +144,16 @@ export default function Section1() {
                                         <img
                                             className="img-cover rounded-3"
                                             src="/assets/imgs/pages/img-167.webp"
-                                            alt="Amelia Courtney"
+                                            alt="ADS AI creative specialist"
                                             width={400}
                                             height={500} loading="lazy" />
                                     </div>
                                     <div className="card_case__studies-footer mt-10 bg-neutral-0">
                                         <h5 className="card_case__studies-footer-title neutral-900">
-                                            <Link to="#">Amelia Courtney</Link>
+                                            <Link to="#">ADS AI Creative Team</Link>
                                         </h5>
                                         <Link to="#" className="card_case__studies-link neutral-900">
-                                            <span className="neutral-900 text-nowrap"> Project Manager</span>
+                                            <span className="neutral-900 text-nowrap"> AI Ad Film Specialists</span>
                                             {PLUS_SM_SVG}
                                         </Link>
                                     </div>
@@ -164,8 +163,8 @@ export default function Section1() {
                         <div className="col-xxl-6 col-lg-7 mx-auto pt-70">
                             <span className="at-btn common-black text-uppercase bg-transparent mb-10 rounded-0 p-0">
                                 <span className="text-uppercase">
-                                    <span className="text-1">Project Manager</span>
-                                    <span className="text-2">Project Manager</span>
+                                    <span className="text-1">About ADS AI</span>
+                                    <span className="text-2">About ADS AI</span>
                                 </span>
                                 <i>
                                     {ARROW_SVG}
@@ -173,16 +172,15 @@ export default function Section1() {
                                 </i>
                             </span>
                             <h3 className="reveal-text mb-40">
-                                <RevealText>Amelia Courtney</RevealText>
+                                <RevealText>AI-powered content that converts</RevealText>
                             </h3>
                             <p className="fw-500 fz-font-lg neutral-900 mb-40">
-                                <span className="fw-700">Amelia Courtney</span> is a results-driven Project Manager with a strong background in leading complex digital and AI-driven projects. She bridges the gap between strategy, technology, and execution—ensuring every project is delivered on time, within scope, and with measurable impact.
-                            </p>
+                                <span className="fw-700">ADS AI</span> creates AI ad films, promotional videos, voice overs, corporate films, product explainers, and social media video ads that help brands capture attention and grow faster.</p>
                             <p className="fw-500 fz-font-lg neutral-900 mb-60">
-                                With a sharp eye for detail and a calm, structured approach, Amelia keeps cross-functional teams aligned, motivated, and focused on what matters most: delivering real value to clients.
+                                Content that converts requires your time, skills, and resources. ADS AI handles the full process for you — from discovery and strategy to creative concept, production, post-production, and delivery.
                             </p>
                             <div className="block-content mb-50">
-                                <h6 className="fw-600 mb-25">Key Achievements</h6>
+                                <h6 className="fw-600 mb-25">What We Deliver</h6>
                                 <ul className="list-unstyled">
                                     {KEY_ACHIEVEMENTS.map((item, i) => (
                                         <AchievementItem key={i} item={item} />
@@ -190,13 +188,13 @@ export default function Section1() {
                                 </ul>
                             </div>
                             <div className="block-content mb-50">
-                                <h6 className="fw-600 mb-25">Working Style</h6>
+                                <h6 className="fw-600 mb-25">How We Work</h6>
                                 <p className="mb-0 fz-font-md neutral-900">
-                                    Structured, proactive, and detail-oriented. Henry focuses on clarity, accountability, and momentum—keeping projects moving forward without compromising creative quality.
+                                    We combine strategy, AI tools, cinematic storytelling, and performance-focused thinking to create content that looks premium and works across advertising platforms.
                                 </p>
                             </div>
                             <div className="block-content mb-50">
-                                <h6 className="fw-600 mb-25">Responsibilities</h6>
+                                <h6 className="fw-600 mb-25">Our Process</h6>
                                 <ul className="list-unstyled">
                                     {RESPONSIBILITIES.map((item, i) => (
                                         <li key={i}>
@@ -213,10 +211,12 @@ export default function Section1() {
                             <div className="block-content mb-50">
                                 <h6 className="fw-600 mb-25">Contact</h6>
                                 <h6 className="fw-600 mb-10">
-                                    <a href="mailto:amelia@orisa.com">amelia@orisa.com</a>
+                                    <a href="mailto:business@adsai.ai">business@adsai.ai</a>
                                 </h6>
                                 <h6 className="fw-600">
-                                    <a href="tel:(212) 555-7398">(212) 555-7398</a>
+                                    <a href="tel:+919133187000">+91 91331 87000</a>
+                                    <br />
+                                    <a href="tel:+919052204000">+91 90522 04000</a>
                                 </h6>
                             </div>
                             <div className="block-content">

@@ -1,19 +1,22 @@
 import { Link } from "react-router-dom";
 
+
 const POPULAR_SEARCHES = [
-  "UI / UX Design",
-  "Photography",
-  "Digital Marketing",
-  "Creative",
-  "Innovative",
-  "Visionary",
-  "Disruptive",
-  "Adaptive",
-  "Reliable",
-  "Scalable",
-  "Impactful",
-  "Dynamic",
+  "AI Ad Films",
+  "AI Films",
+  "AI Voice Overs",
+  "Promotional Videos",
+  "Corporate Films",
+  "Product Explainers",
+  "Documentary Videos",
+  "Social Media Video Ads",
+  "AI Content Creation",
+  "Creative Strategy",
+  "Performance Ads",
+  "Brand Storytelling",
 ];
+
+
 
 interface PopupSearchProps {
   open: boolean;
@@ -38,8 +41,8 @@ export default function PopupSearch({ open, onClose }: PopupSearchProps) {
               <div className="at-search-top d-flex justify-content-between align-items-center">
                 <div className="at-header-logo at-search-logo">
                   <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
-                    <img data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa" />
-                    <h6 className="fw-700 fz-24 mb-0">Orisa</h6>
+                    <img data-width="100" src="/assets/imgs/images/32x32 Black.png" alt="Adsai" />
+                    {/* <h6 className="fw-700 fz-24 mb-0">Adsai</h6> */}
                   </Link>
                 </div>
                 <button type="button" className="at-search-close" onClick={onClose} aria-label="Close search">

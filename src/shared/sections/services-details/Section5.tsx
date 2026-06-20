@@ -21,10 +21,10 @@ const PLUS_ICON = (
 );
 
 const RECEIVE_ITEMS = [
-    "Research insights summary",
-    "Opportunity mapping",
-    "Clear problem statements",
-    "Prioritized initiatives ",
+    "AI ad film final video",
+    "Platform-ready video formats",
+    "AI voice over and sound polish",
+    "Creative assets ready for campaigns",
 ];
 
 const GRID_COLS = 7;
@@ -52,12 +52,23 @@ export default function Section5() {
                 <div className="container">
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-6">
-                            <img
-                                src="/assets/imgs/pages/img-165.webp"
-                                alt="orisa"
-                                width={800}
-                                height={600}
-                                style={{ width: "100%", height: "auto" }} loading="lazy" />
+                        <video
+                            width={800}
+                            height={600}
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            preload="metadata"
+                            style={{
+                                width: "100%",
+                                height: "600px",
+                                objectFit: "cover",
+                                display: "block",
+                            }}
+                        >
+                            <source src="/assets/imgs/v/v-47.webm" type="video/webm" />
+                        </video>
                         </div>
                         <div className="col-lg-5 mx-auto">
                             <span className="at-btn common-black text-uppercase bg-transparent mb-10 rounded-0 p-0">
@@ -72,7 +83,7 @@ export default function Section5() {
                             </span>
                             <h4 className="reveal-text mb-0 fw-600 pe-lg-5">
                                 <RevealText>
-                                    Together, we build experiences, relationships, and digital solutions that move brands ahead.
+                                    Everything your brand needs to launch high-quality AI-powered video campaigns.
                                 </RevealText>
                             </h4>
                             <div className="row pt-30 pb-80">
@@ -98,20 +109,20 @@ export default function Section5() {
                                     <div className="testimonial-left-img size-50 rounded-3 overflow-hidden">
                                         <img
                                             src="/assets/imgs/template/avatar/avatar-8.webp"
-                                            alt="orisa"
+                                            alt="ADS AI ad film delivery"
                                             width={50}
                                             height={50} loading="lazy" />
                                     </div>
                                 </div>
                                 <div className="testimonial-content">
                                     <p className="fz-xl neutral-900 fw-400">
-                                        &quot;Orisa completely transformed how we present our brand online. Their strategic mindset and attention to detail resulted in a digital experience that feels both refined and high-performing.&quot;
+                                        &quot;ADS AI helped us turn our brand message into a powerful AI ad film. The final video looked premium, communicated clearly, and was ready to use across our digital campaigns.&quot;
                                     </p>
                                     <h6 className="testimonial-content-author-name fw-600 mb-0 fz-font-md">
-                                        Hannah Lee
+                                        ADS AI Client
                                     </h6>
                                     <p className="testimonial-content-author-position m-0 fz-font-label">
-                                        Creative Director
+                                        Brand Partner
                                     </p>
                                 </div>
                             </div>

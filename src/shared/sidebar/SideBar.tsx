@@ -114,12 +114,12 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
 
       {/* at-offcanvas-area */}
       <div className="at-offcanvas-area" aria-hidden={!open}>
-        <div className={`at-offcanvas ${open ? "opened" : ""}`}>
+        <div className={`at-offcanvas bg-[#04151e] ${open ? "opened" : ""}`}>
           <div className="at-offcanvas-top d-flex align-items-center justify-content-between">
             <div className="at-offcanvas-logo">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
-                <img data-width="30" src="/assets/imgs/template/logo/LOGO.png" alt="Orisa" width={30} height={30} />
-                <h6 className="fw-700 fz-24 mb-0">ADS AI</h6>
+                <img data-width="30" src="/assets/imgs/images/512x512 Black.png" alt="Adsai" width={30} height={30} />
+                {/* <h6 className="fw-700 fz-24 mb-0">ADS AI</h6> */}
               </Link>
             </div>
             <div className="at-offcanvas-close-btn">
@@ -187,8 +187,8 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
 
       {/* at-offcanvas-2-area */}
       <div className={`at-offcanvas-2-area ${hamburgerOpen ? "menu-open" : ""}`} aria-hidden={!hamburgerOpen}>
-        <div className="offcanvas-bg" />
-        <div className="at-offcanvas-2-wrapper offcanvas-menu sidebar-left">
+        <div className="offcanvas-bg bg-[#04151e]" />
+        <div className="at-offcanvas-2-wrapper offcanvas-menu sidebar-left bg-[#04151e]">
           <div className="at-offcanvas-2-left">
             <div className="at-header-logo d-flex justify-content-between align-items-center mb-50">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
@@ -196,11 +196,11 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
                   className="dark-mode-invert"
                   data-width="30"
                   src="/assets/imgs/template/logo/favicon.svg"
-                  alt="Orisa"
+                  alt="Adsai"
                   width={30}
                   height={30}
                 />
-                <h6 className="fw-700 fz-24 mb-0">Orisa</h6>
+                <h6 className="fw-700 fz-24 mb-0">Adsai</h6>
               </Link>
               <span className="hamburger-close-btn close-sidebar" role="button" tabIndex={0} aria-label="Close" onClick={onClose}>
                 <CloseIconSvg />

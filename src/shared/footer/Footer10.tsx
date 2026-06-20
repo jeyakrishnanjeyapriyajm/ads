@@ -38,13 +38,13 @@ const SOCIAL_LINKS = [
 const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about-1" },
-  { label: "Services", href: "/services-1" },
+  { label: "Services", href: "/services-2" },
   { label: "Portfolio", href: "/portfolio-1" },
   { label: "Contact", href: "/contact-1" },
 ] as const;
 
 const SHOP_LINKS = [
-  { label: "AI Ad Films", href: "/services-1" },
+  { label: "AI Ad Films", href: "/services-2" },
   { label: "AI Films", href: "/services-2" },
   { label: "AI Voice Overs", href: "/services-3" },
   { label: "Video Ads", href: "/services-details" },

@@ -3,11 +3,11 @@ import SwiperDynamic from "@/shared/components/SwiperDynamic";
 // Services details Section 2 - Image slider (about-me-slider-active)
 
 const SLIDES = [
-    { src: "/assets/imgs/pages/img-156.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-157.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-158.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-159.webp", alt: "orisa" },
-    { src: "/assets/imgs/pages/img-160.webp", alt: "orisa" },
+    { src: "/assets/imgs/v/v-36.webm", alt: "adsai" },
+    { src: "/assets/imgs/v/v-37.webm", alt: "adsai" },
+    { src: "/assets/imgs/v/v-38.webm", alt: "adsai" },
+    { src: "/assets/imgs/v/v-39.webm", alt: "adsai" },
+    { src: "/assets/imgs/v/v-43.webm", alt: "adsai" },
 ];
 
 export default function Section2() {
@@ -26,12 +26,23 @@ export default function Section2() {
             >
                 {SLIDES.map((slide, index) => (
                     <div key={index} className="about-me-slider-thumb at-item-anime marque">
-                        <img
-                            src={slide.src}
-                            alt={slide.alt}
+                        <video
                             width={770}
                             height={560}
-                            className="w-100 rounded-4" loading="lazy" />
+                            className="w-100 rounded-4"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            preload="metadata"
+                            style={{
+                                height: "560px",
+                                objectFit: "cover",
+                                display: "block",
+                            }}
+                        >
+                            <source src={slide.src} type="video/mp4" />
+                        </video>
                     </div>
                 ))}
             </SwiperDynamic>

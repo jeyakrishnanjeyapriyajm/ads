@@ -3,12 +3,12 @@ import Marquee from "react-fast-marquee";
 // Team details Section 2 - Ticker (Creativity, Innovation, etc.) + quote
 
 const TICKER_ITEMS = [
-    "Creativity",
-    "Innovation",
-    "Strategy",
-    "Impact",
-    "Impact",
-    "Originality",
+    "AI Ad Films",
+    "Promotional Videos",
+    "AI Voice Overs",
+    "Corporate Films",
+    "Product Explainers",
+    "Social Media Ads",
 ];
 
 export default function Section2() {
@@ -36,7 +36,7 @@ export default function Section2() {
                 <div className="row">
                     <div className="col-lg-6 mx-auto text-center">
                         <p className="fz-font-3xl neutral-900 fw-400">
-                            We&apos;re a team of strategists and creatives working together to deliver impactful, results-driven work.
+                            We create AI-powered ad films and video content that help brands capture attention, communicate clearly, and convert audiences into customers.
                         </p>
                     </div>
                 </div>

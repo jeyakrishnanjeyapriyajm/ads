@@ -18,42 +18,42 @@ const POSTS = [
         title: "How AI Video Ads Help Brands Capture Attention Faster",
         author: "AdsAI Team",
         date: "June 12, 2026",
-        img: "/assets/imgs/images/img-105.jpg",
+        img: "/assets/imgs/v/v-50.webm",
     },
     {
         category: "Strategy",
         title: "Why Every High-Performing Ad Film Starts with a Clear Brand Message",
         author: "Creative Team",
         date: "June 08, 2026",
-        img: "/assets/imgs/images/img-77.jpg",
+        img: "/assets/imgs/v/v-51.webm",
     },
     {
         category: "Creative",
         title: "The Role of Storytelling in Building Stronger Brand Recall",
         author: "Strategy Team",
         date: "June 03, 2026",
-        img: "/assets/imgs/images/img-82.jpg",
+        img: "/assets/imgs/v/v-52.webm",
     },
     {
         category: "Production",
         title: "From Script to Screen: How AI Speeds Up Video Production",
         author: "Production Team",
         date: "May 28, 2026",
-        img: "/assets/imgs/images/img-79.jpg",
+        img: "/assets/imgs/v/v-53.webm",
     },
     {
         category: "Social Media Ads",
         title: "Creating Short-Form Video Ads That Drive Clicks, Leads, and Sales",
         author: "AdsAI Team",
         date: "May 20, 2026",
-        img: "/assets/imgs/images/img-80.jpg",
+        img: "/assets/imgs/v/v-54.webm",
     },
     {
         category: "Brand Growth",
         title: "How Campaign-Ready Video Content Helps Brands Grow Faster Online",
         author: "Creative Team",
         date: "May 15, 2026",
-        img: "/assets/imgs/images/img-81.jpg",
+        img: "/assets/imgs/v/v-55.webm",
     },
 ];
 
@@ -92,17 +92,23 @@ export default function Section11() {
                                 <div role="list" className="list">
                                     {POSTS.map((post, i) => (
                                         <div key={i} className="item">
-                                            <article className="blog-card-2 bg-neutral-0 py-5">
+                                            <article
+                                                className="blog-card-2 p-4 rounded-4"
+                                                style={{
+                                                    backgroundColor: "#04151e",
+                                                    border: "1px solid rgba(255,255,255,0.15)",
+                                                }}
+                                            >
                                                 <div className="blog-card-2__left flex-grow-1">
-                                                    <span className="blog-card-2__category">{post.category}</span>
+                                                    <span className="blog-card-2__category text-white">{post.category}</span>
                                                     <h6 className="blog-card-2__title">
-                                                        <Link to="/blog-details" className="blog-card-2__title-link">
+                                                        <Link to="/blog-details" className="blog-card-2__title-link text-white">
                                                             {post.title}
                                                         </Link>
                                                     </h6>
-                                                    <p className="blog-card-2__meta">
+                                                    <p className="blog-card-2__meta text-white">
                                                         <span className="blog-card-2__meta-text">By </span>
-                                                        <Link to="/team-details" className="blog-card-2__author">
+                                                        <Link to="/team-details" className="blog-card-2__author text-white">
                                                             {post.author}
                                                         </Link>
                                                         <span className="blog-card-2__meta-text"> – {post.date}</span>
@@ -110,12 +116,24 @@ export default function Section11() {
                                                 </div>
                                                 <div className="blog-card-2__thumb hover-effect-1">
                                                     <Link to="/blog-details" className="blog-card-2__img-link">
-                                                        <img
-                                                            src={post.img}
-                                                            alt="adsai"
+                                                        <video
                                                             width={400}
                                                             height={280}
-                                                            className="blog-card-2__img" loading="lazy" />
+                                                            className="blog-card-2__img"
+                                                            autoPlay
+                                                            muted
+                                                            loop
+                                                            playsInline
+                                                            preload="metadata"
+                                                            style={{
+                                                                width: "100%",
+                                                                height: "280px",
+                                                                objectFit: "cover",
+                                                                display: "block",
+                                                            }}
+                                                        >
+                                                            <source src={post.img} type="video/webm" />
+                                                        </video>
                                                     </Link>
                                                 </div>
                                             </article>

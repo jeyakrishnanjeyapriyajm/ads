@@ -22,10 +22,10 @@ const LINK_ARROW_SVG = (
 );
 
 const HERO_LINKS = [
-    { label: "Market Insight", href: "#" },
-    { label: "User Research", href: "#" },
-    { label: "AI Strategy", href: "#" },
-    { label: "Data-Driven Thinking", href: "#" },
+    { label: "AI Ad Films", href: "#" },
+    { label: "Promotional Videos", href: "#" },
+    { label: "AI Voice Overs", href: "#" },
+    { label: "Social Media Ads", href: "#" },
 ];
 
 export default function Section1() {
@@ -40,11 +40,11 @@ export default function Section1() {
                                 <span className="text-1">
                                     <Link to="#">services /</Link>
                                 </span>
-                                <span className="text-1 neutral-500"> Strategy &amp; Research</span>
+                                <span className="text-1 neutral-500"> AI Ad Films</span>
                             </span>
                         </div>
                         <h1 className="section-title d-flex fw-600 reveal-text mb-40 text-nowrap">
-                            <RevealText>Strategy &amp; Research</RevealText>
+                            <RevealText>AI Ad Films</RevealText>
                         </h1>
                         <div className="at-hero-social style-2 justify-content-start">
                             {HERO_LINKS.map((item, i) => (
@@ -58,7 +58,7 @@ export default function Section1() {
                     <div className="col-lg-5 ms-auto">
                         <h6 className="fw-600 reveal-text mb-0">
                             <RevealText>
-                                We help organizations make confident decisions by transforming complex problems into clear, actionable strategies grounded in research and data.
+                                ADS AI creates high-quality AI ad films that combine strategy, cinematic visuals, storytelling, voice overs, and performance-focused content to help brands attract attention and convert audiences into customers.
                             </RevealText>
                         </h6>
                     </div>

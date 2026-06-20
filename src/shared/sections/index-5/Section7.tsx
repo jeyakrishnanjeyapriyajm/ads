@@ -33,29 +33,29 @@ type TestimonialItem = {
 
 const TESTIMONIALS: TestimonialItem[] = [
     {
-        name: "Marcus Thorne",
-        roleLine: "CTO\nNexusTech",
+        name: "ADS AI Client",
+        roleLine: "Brand Partner\nAI Ad Film",
         avatar: "/assets/imgs/template/avatar/avatar-10.webp",
         quote:
-            '"Orisa doesn\'t just build models; he builds engines for growth. His ability to deploy complex architectures with 99.9% reliability is what sets his work apart."',
+            '"ADS AI helped us turn our brand message into a premium AI ad film. The video was clear, cinematic, and ready for our digital campaigns."',
         headerFirst: true,
         orderClass: "order-1",
     },
     {
-        name: "Sarah Jenkins",
-        roleLine: "Lead Architect\nFlowData",
+        name: "Marketing Team",
+        roleLine: "Performance Campaign\nSocial Media Ads",
         avatar: "/assets/imgs/template/avatar/avatar-12.webp",
         quote:
-            '"From start to finish, the transition from raw data to a production-ready API was seamless. The efficiency gains in our pipeline exceeded all expectations."',
+            '"The team handled everything from concept to delivery. We saved time and received high-quality video assets for Meta, YouTube, and Instagram."',
         headerFirst: false,
         orderClass: "order-md-2 order-3",
     },
     {
-        name: "Elena Rossi",
-        roleLine: "Head of AI\nSynthetix Systems",
+        name: "Business Founder",
+        roleLine: "Promotional Video\nBrand Growth",
         avatar: "/assets/imgs/template/avatar/avatar-16.webp",
         quote:
-            '"Orisa possesses a rare architectural intuition. He successfully optimized our legacy neural networks, reducing latency by 40% without compromising on model accuracy."',
+            '"ADS AI made the production process simple. The final promotional video looked professional and helped us present our business with confidence."',
         headerFirst: true,
         orderClass: "order-md-3 order-2",
     },
@@ -165,21 +165,21 @@ export default function Section7() {
                             </i>
                         </span>
                         <h2 className="reveal-text mb-0">
-                            <RevealText>Insights from Industry Partners</RevealText>
+                            <RevealText>What brands say about ADS AI</RevealText>
                         </h2>
                     </div>
                     <div className="col-xxl-5 col-md-8 ms-xxl-auto">
                         <div className="d-flex align-items-center gap-5 justify-content-xxl-end">
                             <h6 className="fw-600">
-                                245 Fifth Avenue, Suite 1800 <br />
-                                New York, NY 10016, USA
+                                Hollywood Digital VFX Studios Pvt. Ltd. <br />
+                                Hyderabad, Telangana, India
                             </h6>
                             <div>
                                 <h6 className="fw-600">
-                                    <Link to="tel:+2125557398">+212-555-7398</Link>
+                                    <Link to="tel:+919133187000">+91 91331 87000</Link>
                                 </h6>
                                 <h6 className="fw-600">
-                                    <Link to="mailto:hello@orisa.com">hello@orisa.com</Link>
+                                    <Link to="mailto:business@adsai.ai">business@adsai.ai</Link>
                                 </h6>
                             </div>
                         </div>
@@ -212,7 +212,7 @@ export default function Section7() {
                                 </div>
                                 <div className="team-card-content">
                                     <h6 className="team-card-position fz-font-3xl fw-400 m-0 neutral-0">
-                                        Real-world experience through projects.
+                                        AI-powered content built for real campaign results.
                                     </h6>
                                 </div>
                             </div>

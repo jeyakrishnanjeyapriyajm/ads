@@ -17,7 +17,7 @@ const ARROW_SVG = (
 const INITIAL_VISIBLE = 6;
 const LOAD_MORE_STEP = 6;
 
-type CategoryFilter = "" | "design" | "photography" | "marketing";
+type CategoryFilter = "" | "films" | "voice" | "ads";
 
 const BLOG_POSTS: Array<{
     category: CategoryFilter;
@@ -29,127 +29,127 @@ const BLOG_POSTS: Array<{
     author: string;
     date: string;
 }> = [
-        {
-            category: "photography",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-23.webp",
-            title: "Designing Digital Experiences That Connect Brands and People",
-            author: "Olivia",
-            date: "July 3, 2026",
-        },
-        {
-            category: "design",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-24.webp",
-            title: "From Concept to Launch: Building Products That Truly Matter",
-            author: "Daniel",
-            date: "July 8, 2026",
-        },
-        {
-            category: "marketing",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-25.webp",
-            title: "Creating impactful interfaces through thoughtful design systems",
-            author: "Emma",
-            date: "July 12, 2026",
-        },
-        {
-            category: "design",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-192.webp",
-            title: "Why strong visual identity is the foundation of modern brands",
-            author: "Lucas",
-            date: "July 17, 2026",
-        },
-        {
-            category: "photography",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-193.webp",
-            title: "Designing with purpose: turning strategy into meaningful experiences",
-            author: "Olivia",
-            date: "July 3, 2026",
-        },
-        {
-            category: "design",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-194.webp",
-            title: "The role of design in building trust in digital products",
-            author: "Daniel",
-            date: "July 8, 2026",
-        },
-        {
-            category: "marketing",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-195.webp",
-            title: "How thoughtful UX shapes long-term brand loyalty",
-            author: "Emma",
-            date: "July 12, 2026",
-        },
-        {
-            category: "marketing",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-196.webp",
-            title: "Beyond aesthetics: designing interfaces that drive real value",
-            author: "Lucas",
-            date: "July 17, 2026",
-        },
-        {
-            category: "photography",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-197.webp",
-            title: "Building scalable design systems for growing brands",
-            author: "Olivia",
-            date: "July 3, 2026",
-        },
-        {
-            category: "design",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-198.webp",
-            title: "The intersection of design, technology, and business strategy",
-            author: "Daniel",
-            date: "July 8, 2026",
-        },
-        {
-            category: "marketing",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-199.webp",
-            title: "Crafting user journeys that feel effortless and human",
-            author: "Emma",
-            date: "July 12, 2026",
-        },
-        {
-            category: "photography",
-            classList: "col-lg-6 col-md-6 col-12",
-            linkPost: "/blog-details",
-            linkAuthor: "/team-details",
-            img: "/assets/imgs/pages/img-200.webp",
-            title: "From idea to experience: translating vision into digital products",
-            author: "Lucas",
-            date: "July 17, 2026",
-        },
-    ];
+    {
+        category: "films",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-70.jpg",
+        title: "How AI Ad Films Help Brands Capture Attention Faster",
+        author: "ADS AI",
+        date: "July 3, 2026",
+    },
+    {
+        category: "films",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-72.jpg",
+        title: "Why AI Video Content Is Changing Digital Advertising",
+        author: "ADS AI",
+        date: "July 8, 2026",
+    },
+    {
+        category: "ads",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-54.jpg",
+        title: "Creating High-Converting Social Media Video Ads With AI",
+        author: "ADS AI",
+        date: "July 12, 2026",
+    },
+    {
+        category: "voice",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-76.jpg",
+        title: "How AI Voice Overs Improve Video Storytelling",
+        author: "ADS AI",
+        date: "July 17, 2026",
+    },
+    {
+        category: "films",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-78.jpg",
+        title: "From Strategy to Screen: The AI Ad Film Production Process",
+        author: "ADS AI",
+        date: "July 21, 2026",
+    },
+    {
+        category: "ads",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-51.jpg",
+        title: "Why Short Video Ads Work Better for Digital Campaigns",
+        author: "ADS AI",
+        date: "July 25, 2026",
+    },
+    {
+        category: "voice",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-90.jpg",
+        title: "Choosing the Right Voice Tone for AI Brand Videos",
+        author: "ADS AI",
+        date: "July 29, 2026",
+    },
+    {
+        category: "ads",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-91.jpg",
+        title: "How Campaign-Ready Videos Save Time for Marketing Teams",
+        author: "ADS AI",
+        date: "August 2, 2026",
+    },
+    {
+        category: "films",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-93.jpg",
+        title: "AI Product Explainer Videos That Make Messages Clear",
+        author: "ADS AI",
+        date: "August 6, 2026",
+    },
+    {
+        category: "films",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-95.jpg",
+        title: "How Corporate AI Films Build Brand Trust",
+        author: "ADS AI",
+        date: "August 10, 2026",
+    },
+    {
+        category: "ads",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-60.jpg",
+        title: "Optimizing Video Formats for Meta, YouTube, and Instagram",
+        author: "ADS AI",
+        date: "August 14, 2026",
+    },
+    {
+        category: "voice",
+        classList: "col-lg-6 col-md-6 col-12",
+        linkPost: "/blog-details",
+        linkAuthor: "/team-details",
+        img: "/assets/imgs/images/img-56.jpg",
+        title: "The Role of Sound Design in AI-Powered Ad Films",
+        author: "ADS AI",
+        date: "August 18, 2026",
+    },
+];
 
 type MatchMediaContext = { revert: () => void };
 
@@ -259,30 +259,30 @@ export default function Section1() {
                             <button
                                 type="button"
                                 className={`at-btn filter-btn btn-sm${activeFilter === "design" ? " active" : ""}`}
-                                data-filter="design"
-                                onClick={() => handleFilter(activeFilter === "design" ? "" : "design")}
+                                data-filter="films"
+                                onClick={() => handleFilter(activeFilter === "films" ? "" : "films")}
                             >
-                                UI / UX Design
+                                AI Ad Films
                             </button>
                             <button
                                 type="button"
-                                className={`at-btn filter-btn btn-sm${activeFilter === "photography" ? " active" : ""}`}
-                                data-filter="photography"
+                                className={`at-btn filter-btn btn-sm${activeFilter === "voice" ? " active" : ""}`}
+                                data-filter="voice"
                                 onClick={() =>
-                                    handleFilter(activeFilter === "photography" ? "" : "photography")
+                                    handleFilter(activeFilter === "voice" ? "" : "voice")
                                 }
                             >
-                                Photography
+                                AI Voice Overs
                             </button>
                             <button
                                 type="button"
-                                className={`at-btn filter-btn btn-sm${activeFilter === "marketing" ? " active" : ""}`}
-                                data-filter="marketing"
+                                className={`at-btn filter-btn btn-sm${activeFilter === "ads" ? " active" : ""}`}
+                                data-filter="ads"
                                 onClick={() =>
-                                    handleFilter(activeFilter === "marketing" ? "" : "marketing")
+                                    handleFilter(activeFilter === "ads" ? "" : "ads")
                                 }
                             >
-                                Digital Marketing
+                                Social Media Ads
                             </button>
                         </div>
                     </div>

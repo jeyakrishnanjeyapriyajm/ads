@@ -49,19 +49,20 @@ export default function Section4() {
                                 </svg>
                             </div>
                         </div>
-                        <h4>Still have a questions?</h4>
+                        <h4>Still have questions?</h4>
                         <p className="fz-font-lg neutral-900">
-                            If you cannot find answer to your question in our
-                            FAQ, you can always contact us. <br />
-                            We wil answer to you shortly! Meet our Support team
+                           If you cannot find the answer about AI ad films, video production, or campaign delivery, contact ADS AI directly. <br />
+                            Our team will help you choose the right AI video solution for your brand.
                         </p>
                         <h5 className="mt-40">
-                            <a href="mailto:hello@orisa.com">
-                                hello@orisa.com
+                            <a href="mailto:business@adsai.ai">
+                                business@adsai.ai
                             </a>
                         </h5>
                         <h6>
-                            <a href="tel:+2125557398">(212) 555-7398</a>
+                            <a href="tel:+919133187000">+91 91331 87000</a>
+                            <br />
+                            <a href="tel:+919052204000">+91 90522 04000</a>
                         </h6>
                     </div>
                 </div>

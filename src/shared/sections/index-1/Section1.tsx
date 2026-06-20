@@ -65,7 +65,7 @@ export default function Section1() {
                 <div className="container p-relative">
                     <div className="p-absolute bottom-100 start-0 ms-5 mb-100 d-none d-lg-block">
                         <a
-                            href="mailto:hello@orisa.com"
+                            href="mailto:business@adsai.ai"
                             className="at-hero-button at-btn bg-transparent p-relative"
                         >
                             <img
@@ -191,8 +191,8 @@ export default function Section1() {
                             </div>
                         </div>
                         <div className="col-1 ms-auto text-end align-self-start rotate-90 order-xl-2 order-md-1 d-none d-md-block">
-                            <a href="mailto:hello@adsai.com" className="text-white fw-600">
-                                <span className="at_fade_anim">hello@adsai.com</span>
+                            <a href="mailto:business@adsai.ai" className="text-white fw-600">
+                                <span className="at_fade_anim">business@adsai.ai</span>
                             </a>
                         </div>
                     </div>

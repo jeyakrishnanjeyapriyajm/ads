@@ -39,13 +39,25 @@ export default function Section1() {
                 </div>
             </div>
             <div className="at-banner-thumb overflow-hidden scale-up-img">
-                <img
+               <video
                     className="img-cover scale-up"
                     data-speed=".4"
-                    src="/assets/imgs/images/img-92.jpg"
-                    alt="adsai"
                     width={1920}
-                    height={800} loading="lazy" />
+                    height={800}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    style={{
+                        width: "100%",
+                        height: "800px",
+                        objectFit: "cover",
+                        display: "block",
+                    }}
+                >
+                    <source src="/assets/imgs/v/v-17.webm" type="video/webm" />
+                </video>
             </div>
         </section>
     );

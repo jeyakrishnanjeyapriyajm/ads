@@ -53,23 +53,23 @@ const ICON_4 = (
 const ITEMS = [
     {
         icon: ICON_1,
-        title: "Business & market understanding",
-        description: "We analyze your market, audience, data, and existing performance to uncover real growth opportunities.",
+        title: "Discovery & Brand Understanding",
+        description: "We understand your brand vision, business goals, target audience, customer psychology, and campaign expectations before planning the creative direction.",
     },
     {
         icon: ICON_2,
-        title: "User & Behavior",
-        description: "We study real user needs, behaviors, and motivations to ensure strategies are grounded in human insight—not assumptions.",
+        title: "Creative Strategy",
+        description: "We build a performance-focused strategy with market research, competitor analysis, brand positioning, and clear messaging for better campaign results.",
     },
     {
         icon: ICON_3,
-        title: "Data & AI Readiness",
-        description: "We assess data quality, availability, and system maturity to determine how ready your organization is to adopt and scale AI solutions.",
+        title: "AI Film Concept & Visual Direction",
+        description: "We create the story, cinematic theme, visual language, mood, voice tone, and emotional direction that shape your AI-powered ad film.",
     },
     {
         icon: ICON_4,
-        title: "Strategic Direction",
-        description: "We translate insights into clear priorities, guiding principles, and a focused roadmap that aligns teams and drives confident execution.",
+        title: "Production, Editing & Delivery",
+        description: "We produce AI-generated visuals, animations, voice overs, editing, sound design, and final video formats optimized for Meta, YouTube, Instagram, and ads.",
     },
 ];
 
@@ -91,11 +91,11 @@ export default function Section3() {
                         </span>
                         <h3 className="reveal-text mb-40">
                             <RevealText>
-                                Strategy &amp; Research lays the foundation for every successful product and AI system.
+                                AI ad films built with strategy, storytelling, and performance-focused creativity.
                             </RevealText>
                         </h3>
                         <h6 className="fw-600 mb-0">
-                            We investigate business goals, users, data, and technology to define the right problems—before building solutions.
+                            From discovery and creative concept to AI production and final delivery, ADS AI handles the complete content creation process for your brand.
                         </h6>
                         <div className="section-title-pin" />
                     </div>

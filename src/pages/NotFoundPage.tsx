@@ -35,7 +35,7 @@ const ARROW_UP_LEFT_SVG = (
 export default function NotFoundPage() {
     return (
         <>
-            <PageMeta title="Orisa - 404" />
+            <PageMeta title="adsai - 404" />
             <section className="sec-1-404 overflow-hidden pt-150">
                 <div className="container">
                     <div className="row">
@@ -88,15 +88,25 @@ export default function NotFoundPage() {
                         </div>
                         <div className="col-lg-5 pt-lg-0 pt-100 d-none d-lg-block">
                             <div className="card_case__studies-avatar fix anim-zoomin">
-                                <img
+                                <video
                                     data-speed=".8"
                                     className="img-cover"
-                                    src="/assets/imgs/pages/img-168.webp"
-                                    alt="Amelia Courtney"
                                     width={480}
                                     height={600}
-                                    loading="lazy"
-                                />
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    preload="metadata"
+                                    style={{
+                                        width: "100%",
+                                        height: "600px",
+                                        objectFit: "cover",
+                                        display: "block",
+                                    }}
+                                >
+                                    <source src="/assets/imgs/v/v-20.webm" type="video/webm" />
+                                </video>
                             </div>
                         </div>
                     </div>

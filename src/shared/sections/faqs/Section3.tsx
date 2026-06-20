@@ -30,40 +30,41 @@ type FaqSection = {
 const FAQ_SECTIONS: FaqSection[] = [
     {
         number: "01",
-        title: "General Information",
+        title: "AI Ad Films",
         description:
-            "Essential questions to understand who we are, what we do, and who we work with.",
+            "Essential questions about ADS AI, AI ad films, and how our video content helps brands grow.",
         accordionId: "accordionFaq1",
         items: [
             {
                 id: "collapseFaq1-1",
                 num: "1",
-                question: "What does your agency do?",
+                question: "What does ADS AI do?",
                 answer:
-                    "We help brands grow through strategy, design, and digital experiences that connect with people.",
+                    "ADS AI creates AI-powered ad films, promotional videos, voice overs, product explainers, corporate films, and social media video ads for brands.",
                 open: true,
             },
             {
                 id: "collapseFaq1-2",
                 num: "2",
-                question: "Who do you typically work with?",
+                question: "What is an AI ad film?",
                 answer:
-                    "We work with startups, growing businesses, and established brands across industries.",
+                    "An AI ad film is a high-quality video created using AI tools, creative strategy, storytelling, visuals, voice over, editing, and sound design.",
                 open: false,
             },
             {
                 id: "collapseFaq1-3",
                 num: "3",
-                question: "Are you a full-service creative agency?",
-                answer: "Yes, we provide end-to-end services from strategy to execution.",
+                question: "Who can use ADS AI services?",
+                answer:
+                    "Our services are suitable for startups, businesses, brands, agencies, product companies, and anyone who needs powerful video content for marketing.",
                 open: false,
             },
             {
                 id: "collapseFaq1-4",
                 num: "4",
-                question: "Do you work with international clients?",
+                question: "Do you create videos for digital ads?",
                 answer:
-                    "Yes, we collaborate with clients worldwide across different time zones.",
+                    "Yes, we create videos optimized for Meta, YouTube, Instagram, reels, shorts, and performance advertising campaigns.",
                 open: false,
             },
         ],
@@ -73,79 +74,84 @@ const FAQ_SECTIONS: FaqSection[] = [
         title: (
             <>
                 Services <br />
-                and Solutions
+                and Videos
             </>
         ),
         description:
-            "Details about our AI solutions, consulting offerings, and system capabilities.",
+            "Questions about our AI video services, creative production, and campaign-ready deliverables.",
         accordionId: "accordionFaq2",
         items: [
             {
                 id: "collapseFaq2-1",
                 num: "1",
-                question: "What services do you offer?",
+                question: "What video services do you offer?",
                 answer:
-                    "We help brands grow through strategy, design, and digital experiences that connect with people.",
+                    "We offer AI ad films, AI films, AI voice overs, promotional videos, corporate films, product explainers, documentary videos, and social media video ads.",
                 open: true,
             },
             {
                 id: "collapseFaq2-2",
                 num: "2",
-                question: "Do you offer custom solutions?",
-                answer: "Yes, every solution is tailored to each client's goals and needs.",
+                question: "Do you provide voice overs?",
+                answer:
+                    "Yes, we provide AI-powered voice overs with suitable tone, pacing, and language style based on the brand and campaign.",
                 open: false,
             },
             {
                 id: "collapseFaq2-3",
                 num: "3",
-                question: "Can you handle both design and development?",
-                answer: "Yes, our team covers both design and full-stack development.",
+                question: "Can you create product explainer videos?",
+                answer:
+                    "Yes, we create product explainer videos that clearly explain product benefits, features, and value in a simple visual format.",
                 open: false,
             },
             {
                 id: "collapseFaq2-4",
                 num: "4",
-                question: "Do you work on one-time projects or ongoing partnerships?",
-                answer: "We offer both one-time projects and long-term collaborations.",
+                question: "Can you make videos for social media?",
+                answer:
+                    "Yes, we deliver videos in platform-ready sizes and formats for Instagram, Facebook, YouTube, reels, shorts, and paid ads.",
                 open: false,
             },
         ],
     },
     {
         number: "03",
-        title: "Process & Collaboration",
+        title: "Process & Delivery",
         description:
-            "How we approach problems, execute projects, and collaborate with clients.",
+            "How we plan, create, edit, and deliver AI-powered video content for your brand.",
         accordionId: "accordionFaq3",
         items: [
             {
                 id: "collapseFaq3-1",
                 num: "1",
-                question: "How do projects usually start?",
+                question: "How does the project start?",
                 answer:
-                    "Projects begin with a discovery phase to understand objectives, data readiness, and system constraints.",
+                    "We start with a discovery call to understand your brand, target audience, campaign goals, creative direction, and expected outcome.",
                 open: true,
             },
             {
                 id: "collapseFaq3-2",
                 num: "2",
-                question: "How do you communicate during a project?",
+                question: "What is your production process?",
                 answer:
-                    "We communicate regularly through meetings, emails, and project tools.",
+                    "Our process includes discovery, strategy, creative concept, pre-production, AI production, post-production, and final delivery.",
                 open: false,
             },
             {
                 id: "collapseFaq3-3",
                 num: "3",
-                question: "How long does a typical project take?",
-                answer: "Timelines vary based on scope, but most projects take 4–12 weeks.",
+                question: "How long does a video project take?",
+                answer:
+                    "Timeline depends on the project scope, but most AI ad film projects can be completed within a short production cycle after content approval.",
                 open: false,
             },
             {
                 id: "collapseFaq3-4",
                 num: "4",
-                question: "Can the scope change during development?",
-                answer: "Yes, scope changes are managed through a clear change process.",
+                question: "Do you provide revisions?",
+                answer:
+                    "Yes, revisions can be included based on the selected project scope and agreed creative direction.",
                 open: false,
             },
         ],
@@ -154,12 +160,12 @@ const FAQ_SECTIONS: FaqSection[] = [
         number: "04",
         title: (
             <>
-                Engagement <br />
+                Pricing <br />
                 and Support
             </>
         ),
         description:
-            "Post-launch support, maintenance, updates, and system optimization.",
+            "Questions about pricing, project support, final files, and campaign-ready video formats.",
         accordionId: "accordionFaq4",
         items: [
             {
@@ -167,28 +173,31 @@ const FAQ_SECTIONS: FaqSection[] = [
                 num: "1",
                 question: "How do you price your services?",
                 answer:
-                    "Pricing is based on project scope, complexity, and engagement type.",
+                    "Pricing depends on video type, duration, complexity, number of deliverables, voice over, editing requirements, and campaign formats.",
                 open: true,
             },
             {
                 id: "collapseFaq4-2",
                 num: "2",
-                question: "Do you offer fixed or hourly pricing?",
-                answer: "We offer both fixed-price and hourly engagement models.",
+                question: "Do you provide final files for different platforms?",
+                answer:
+                    "Yes, we can deliver final videos in different aspect ratios and formats for Meta, YouTube, Instagram, and digital campaigns.",
                 open: false,
             },
             {
                 id: "collapseFaq4-3",
                 num: "3",
-                question: "Is there a minimum project size?",
-                answer: "Yes, minimum project scope depends on service requirements.",
+                question: "Can you support urgent campaigns?",
+                answer:
+                    "Yes, urgent campaign support is possible depending on the project requirement and production schedule.",
                 open: false,
             },
             {
                 id: "collapseFaq4-4",
                 num: "4",
-                question: "Do you provide support after launch?",
-                answer: "Yes, we offer ongoing support and maintenance options.",
+                question: "How can we start with ADS AI?",
+                answer:
+                    "You can contact ADS AI through business@adsai.ai or call +91 91331 87000 / +91 90522 04000 to discuss your project.",
                 open: false,
             },
         ],

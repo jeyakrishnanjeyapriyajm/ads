@@ -26,30 +26,30 @@ const SCROLL_SVG = (
 const STEPS = [
     {
         num: "01",
-        title: "Explore",
-        description: "Understand context constraints, goals and assumptions",
-        img: "/assets/imgs/pages/img-161.webp",
+        title: "Discovery Call",
+        description: "We understand your brand vision, business goals, target audience, and campaign expectations.",
+        img: "/assets/imgs/images/img-41.jpg",
         cardClass: "at-service-card hover-up card-1 no-before rounded-2 overflow-hidden p-relative bg-neutral-0 z-index-3",
     },
     {
         num: "02",
-        title: "Synthesize",
-        description: "Turn data into meaningful insights",
-        img: "/assets/imgs/pages/img-162.webp",
+        title: "Strategy",
+        description: "We build a creative strategy with market research, competitor analysis, brand positioning, and clear messaging.",
+        img: "/assets/imgs/images/img-44.jpg",
         cardClass: "at-service-card hover-up card-2 rounded-2 overflow-hidden p-relative bg-neutral-0",
     },
     {
         num: "03",
-        title: "Frame",
-        description: "Define problems & opportunities and priorities",
-        img: "/assets/imgs/pages/img-163.webp",
+        title: "Creative Concept",
+        description: "We create the story, cinematic theme, visual mood, voice tone, and direction for your AI ad film.",
+        img: "/assets/imgs/images/img-42.jpg",
         cardClass: "at-service-card hover-up card-3 rounded-2 overflow-hidden p-relative bg-neutral-0",
     },
     {
         num: "04",
-        title: "Guide",
-        description: "Translate insight into action",
-        img: "/assets/imgs/pages/img-164.webp",
+        title: "Production & Delivery",
+        description: "We produce, edit, polish, and deliver final video formats ready for Meta, YouTube, Instagram, and ads.",
+        img: "/assets/imgs/images/img-43.jpg",
         cardClass: "at-service-card hover-up card-2 rounded-2 overflow-hidden p-relative bg-neutral-0",
     },
 ];
@@ -62,8 +62,8 @@ export default function Section4() {
                     <div className="col-lg-6">
                         <span className="at-btn common-black bg-transparent mb-10 rounded-0 p-0">
                             <span className="text-uppercase">
-                                <span className="text-1">OUR APPROACH</span>
-                                <span className="text-2">OUR APPROACH</span>
+                                <span className="text-1">OUR PROCESS</span>
+                                <span className="text-2">OUR PROCESS</span>
                             </span>
                             <i>
                                 {ARROW_SVG}
@@ -71,10 +71,10 @@ export default function Section4() {
                             </i>
                         </span>
                         <h3 className="reveal-text mb-20">
-                            <RevealText>How we approach strategy </RevealText>
+                            <RevealText>How we create AI ad films</RevealText>
                         </h3>
                         <h6 className="fw-500 mb-0">
-                            We combine research, analysis, and strategic thinking into a clear, decision-making framework.
+                            We handle everything from strategy and creative concept to AI production, editing, and final delivery.
                         </h6>
                     </div>
                     <div className="col-lg-4 col-md-8 ms-auto text-end">
@@ -102,7 +102,7 @@ export default function Section4() {
                                         <img
                                             className="img-cover rounded-2"
                                             src={step.img}
-                                            alt="orisa"
+                                            alt="ADS AI ad film process"
                                             width={400}
                                             height={280} loading="lazy" />
                                     </div>

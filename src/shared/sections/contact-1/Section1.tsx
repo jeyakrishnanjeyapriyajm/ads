@@ -48,11 +48,11 @@ const ARROW_ICON_SM = (
 );
 
 const AVATARS = [
-    { src: "/assets/imgs/template/avatar/avatar-10.webp", alt: "adsai", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-11.webp", alt: "adsai", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-12.webp", alt: "adsai", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-13.webp", alt: "adsai", hiddenOnMobile: false },
-    { src: "/assets/imgs/template/avatar/avatar-14.webp", alt: "adsai", hiddenOnMobile: true },
+    { src: "/assets/imgs/images/img-30.jpg", alt: "adsai", hiddenOnMobile: false },
+    { src: "/assets/imgs/images/img-31.jpg", alt: "adsai", hiddenOnMobile: false },
+    { src: "/assets/imgs/images/img-32.jpg", alt: "adsai", hiddenOnMobile: false },
+    { src: "/assets/imgs/images/img-33.jpg", alt: "adsai", hiddenOnMobile: false },
+    { src: "/assets/imgs/images/img-34.jpg", alt: "adsai", hiddenOnMobile: true },
 ];
 
 const SOCIAL_ITEMS = [

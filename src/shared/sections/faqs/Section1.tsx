@@ -29,8 +29,8 @@ export default function Section1() {
                     <div className="col-xxl-5 col-lg-6 pt-lg-0 pt-100">
                         <span className="at-btn common-black text-uppercase bg-transparent mb-10 rounded-0 p-0">
                             <span className="text-uppercase">
-                                <span className="text-1">Frequently Asked Questions</span>
-                                <span className="text-2">Frequently Asked Questions</span>
+                                <span className="text-1">ADS AI FAQs</span>
+                                <span className="text-2">ADS AI FAQs</span>
                             </span>
                             <i>
                                 {ARROW_SVG}
@@ -38,10 +38,10 @@ export default function Section1() {
                             </i>
                         </span>
                         <h4 className="section-title d-flex fw-600">
-                            Join the community with more than 12k+ topics already created
+                            Questions about AI ad films, video content, and campaign delivery?
                         </h4>
                         <p className="neutral-600 fz-font-xl">
-                            Professional support team will solve your problem.
+                            Find quick answers about our AI video production process, timelines, deliverables, and campaign-ready formats.
                         </p>
                     </div>
                     <div className="col-xxl-5 col-lg-6 ms-auto">

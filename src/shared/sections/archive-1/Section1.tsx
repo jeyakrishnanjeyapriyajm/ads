@@ -14,18 +14,18 @@ const ARROW_SVG = (
 
 const BLOG_POSTS = [
     {
-        img: "/assets/imgs/pages/img-190.webp",
+        img: "/assets/imgs/images/img-75.jpg",
         title:
-            "Beyond the Accuracy Score: Why Scalability is the True Metric of Production AI",
-        author: "Olivia",
+            "How AI Ad Films Help Brands Capture Attention Faster",
+        author: "ADS AI",
         authorHref: "/team-details",
         date: "July 3, 2026",
     },
     {
-        img: "/assets/imgs/pages/img-191.webp",
+        img: "/assets/imgs/images/img-78.jpg",
         title:
-            "Optimizing Real-Time Detection: Strategies for Reducing Latency in Edge Computing",
-        author: "Lucas",
+            "Why AI Video Content Is Changing Digital Advertising",
+        author: "ADS AI",
         authorHref: "/team-details",
         date: "July 17, 2026",
     },

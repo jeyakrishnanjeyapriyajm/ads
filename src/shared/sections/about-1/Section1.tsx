@@ -21,10 +21,10 @@ const AVATARS = [
 ];
 
 const SLIDES = [
-    { src: "/assets/imgs/images/img-50.jpg", alt: "ADS AI Creative Work" },
-    { src: "/assets/imgs/images/img-55.jpg", alt: "AI Ad Film Production" },
-    { src: "/assets/imgs/images/img-60.jpg", alt: "AI Marketing Content" },
-    { src: "/assets/imgs/images/img-65.jpg",alt: "Promotional Video Production" },
+    { src: "/assets/imgs/v/v-50.webm", alt: "ADS AI Creative Work" },
+    { src: "/assets/imgs/v/v-51.webm", alt: "AI Ad Film Production" },
+    { src: "/assets/imgs/v/v-52.webm", alt: "AI Marketing Content" },
+    { src: "/assets/imgs/v/v-53.webm", alt: "Promotional Video Production" },
 ];
 
 export default function Section1() {
@@ -89,12 +89,24 @@ export default function Section1() {
                 >
                     {SLIDES.map((slide, index) => (
                         <div key={index} className="about-me-slider-thumb at-item-anime marque">
-                            <img
-                                src={slide.src}
-                                alt={slide.alt}
+                           <video
                                 width={770}
                                 height={700}
-                                className="w-100 rounded-4" loading="lazy" />
+                                className="w-100 rounded-4"
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                                preload="metadata"
+                                style={{
+                                    width: "100%",
+                                    height: "700px",
+                                    objectFit: "cover",
+                                    display: "block",
+                                }}
+                            >
+                                <source src={slide.src} type="video/webm" />
+                            </video>
                         </div>
                     ))}
                 </SwiperDynamic>
