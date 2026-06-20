@@ -10,8 +10,8 @@ export default function Header10() {
             <div className="header-10__inner d-flex align-items-center justify-content-between gap-3">
               <div className="at-header-logo flex-shrink-0">
                 <Link to="/" className="header-10__logo-link d-inline-flex align-items-center gap-1 text-decoration-none">
-                  <img width={27} height={30} className="header-10__mark invert-0" src="/assets/imgs/template/logo/LOGO.png" alt="ADS AI" loading="eager" decoding="async" />
-                  <span className="header-10__brand">ADS AI</span>
+                  <img width={100} height={100} className="header-10__mark invert-0" src="/assets/imgs/images/512x512 Black.png" alt="ADS AI" loading="eager" decoding="async" />
+                  {/* <span className="header-10__brand">ADS AI</span> */}
                 </Link>
               </div>
               <div className="header-10__actions d-flex align-items-center justify-content-end flex-shrink-0">

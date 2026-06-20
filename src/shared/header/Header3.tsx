@@ -31,8 +31,8 @@ export default function Header3({ onOpenSearch, onToggleSidebar, onOpenHamburger
             <div className="col-xl-1 col-6">
               <div className="at-header-logo">
                 <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
-                  <img width={30} height={30} src="/assets/imgs/template/logo/LOGO.png"alt="ADS AI" />
-                  <h6 className="fw-700 fz-24 mb-0">ADS AI</h6>
+                  <img width={100} height={100} src="/assets/imgs/images/512x512 Black.png" alt="ADS AI" />
+                  {/* <h6 className="fw-700 fz-24 mb-0">ADS AI</h6> */}
                 </Link>
               </div>
             </div>

@@ -21,7 +21,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/images/img-7.jpg",
+        img: "/assets/imgs/v/v1/v-8.webm",
         title: "AdBoost AI",
         description: "AI-powered social media campaign for lead generation",
         tags: [
@@ -33,7 +33,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/images/img-8.jpg",
+        img: "/assets/imgs/v/v1/v-9.webm",
         title: "TargetFlow",
         description: "Audience targeting strategy using data and AI insights",
         tags: [
@@ -45,7 +45,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/images/img-9.jpg",
+        img: "/assets/imgs/v/v1/v-10.webm",
         title: "CreativeX",
         description: "AI-generated ad creatives, captions, and campaign visuals",
         tags: [
@@ -57,7 +57,7 @@ const PORTFOLIO_ITEMS = [
     {
         classList: "mb-55",
         link: "/portfolio-details-1",
-        img: "/assets/imgs/images/img-10.jpg",
+        img: "/assets/imgs/v/v1/v-12.webm",
         title: "GrowthPilot",
         description: "Performance campaign optimization for better conversions",
         tags: [

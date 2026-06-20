@@ -80,20 +80,26 @@ export default function Section7() {
                             <div className="d-flex flex-column gap-2">
                                 <div className="at-image-hover p-relative rounded-4 overflow-hidden">
                                     <div className="anim-zoomin">
-                                        <img
+                                        <video
                                             className="zoom-blur-image img-cover"
-                                            src="/assets/imgs/images/img-17.jpg"
-                                            alt="orisa"
                                             width={600}
-                                            height={400} loading="lazy" />
+                                            height={400}
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            preload="auto"
+                                            >
+                                            <source src="/assets/imgs/v/v-14.webm" type="video/webm" />
+                                            </video>
                                     </div>
-                                    <img
+                                    {/* <img
                                         className="p-absolute bottom-0 start-0 m-4"
-                                        src="/assets/imgs/template/logo/Logo.png"
+                                        src="/assets/imgs/images/img-1.jpg"
                                         alt="adsai"
                                         width={227}
                                         height={70}
-                                        style={{ width: "auto", height: "auto" }} loading="lazy" />
+                                        style={{ width: "auto", height: "auto" }} loading="lazy" /> */}
                                     <div className="content position-absolute top-0 end-0 m-4">
                                         <Link
                                             className="bg-transparent text-uppercase border px-3 py-1 rounded-pill text-white fz-font-label"
@@ -105,12 +111,18 @@ export default function Section7() {
                                 </div>
                                 <div className="at-image-hover p-relative rounded-4 overflow-hidden">
                                     <div className="anim-zoomin">
-                                        <img
+                                        <video
                                             className="zoom-blur-image img-cover"
-                                            src="/assets/imgs/images/img-14.jpg"
-                                            alt="orisa"
                                             width={600}
-                                            height={450} loading="lazy" />
+                                            height={400}
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            preload="auto"
+                                            >
+                                            <source src="/assets/imgs/v/v-31.webm" type="video/webm" />
+                                        </video>
                                     </div>
                                     <div className="content">
                                         <h6 className="common-white position-absolute bottom-0 start-0 m-4">

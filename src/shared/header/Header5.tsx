@@ -12,12 +12,12 @@ export default function Header5() {
                                 <div className="at-header-logo px-2">
                                     <Link to="/">
                                         <img
-                                            width={28}
-                                            height={30}
-                                            src="/assets/imgs/template/logo/LOGO.png"
+                                            width={100}
+                                            height={100}
+                                            src="/assets/imgs/images/512x512 Black.png"
                                             alt="ADS AI"
                                             style={{ width: "auto", height: "auto" }} loading="lazy" />
-                                        <h6 className="fw-700 fz-24 mb-0">ADS AI</h6>
+                                        {/* <h6 className="fw-700 fz-24 mb-0">ADS AI</h6> */}
                                     </Link>
                                 </div>
                             </div>

@@ -12,13 +12,13 @@ export default function Header9() {
                 <div className="at-header-logo">
                   <Link to="/" className="d-inline-flex align-items-center gap-2 text-decoration-none">
                     <img
-                      width={49}
-                      height={54}
+                      width={100}
+                      height={100}
                       className="invert-0"
-                      src="/assets/imgs/template/logo/LOGO.png"
+                      src="/assets/imgs/images/512x512 Black.png"
                       alt="ADS AI"
                       style={{ width: "auto", height: "auto" }} loading="lazy" />
-                    <h6 className="fw-700 fz-24 text-white mb-0">ADS AI</h6>
+                    {/* <h6 className="fw-700 fz-24 text-white mb-0">ADS AI</h6> */}
                   </Link>
                 </div>
               </div>

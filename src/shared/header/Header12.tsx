@@ -11,8 +11,8 @@ export default function Header12() {
                             <div className="col-xl-3 col-6">
                                 <div className="at-header-logo">
                                     <Link to="/" className="d-inline-flex align-items-center gap-2 text-decoration-none">
-                                        <img src="/assets/imgs/template/logo/LOGO.png" alt="ADS AI" loading="lazy" />
-                                        <p className="h6 fw-700 fz-24 mb-0">ADS AI</p>
+                                        <img src="/assets/imgs/images/512x512 Black.png" alt="ADS AI" loading="lazy" />
+                                        {/* <p className="h6 fw-700 fz-24 mb-0">ADS AI</p> */}
                                     </Link>
                                 </div>
                             </div>

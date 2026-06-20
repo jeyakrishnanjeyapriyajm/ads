@@ -42,14 +42,25 @@ export default function Section1() {
                     data-parallax-speed="0.45"
                     data-parallax-range="100"
                 >
-                    <img
+                    <video
                         width={1190}
                         height={1043}
                         className="layer"
                         data-depth=".1"
-                        src="/assets/imgs/pages/bg.png"
-                        alt="orisa"
-                        style={{ width: "auto", height: "auto", alignSelf: "flex-end" }} loading="lazy" />
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        preload="auto"
+                        style={{
+                            width: "auto",
+                            height: "auto",
+                            alignSelf: "flex-end",
+                        }}
+                        >
+                        <source src="/assets/imgs/v/v-29.webm" type="video/webm" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div className="container p-relative">
                     <div className="p-absolute bottom-100 start-0 ms-5 mb-100 d-none d-lg-block">
@@ -84,12 +95,12 @@ export default function Section1() {
                                         playsInline
                                         poster="/assets/imgs/images/img-31.jpg"
                                     >
-                                        <source src="/assets/imgs/video/video-1.mp4" type="video/mp4" />
+                                        <source src="/assets/imgs/v/v-43.webm" type="video/webm" />
                                     </video>
                                 </div>
                                 <Link
                                     className="at-btn text-white rounded-0 bg-transparent px-0 pt-2 pb-3 border-0"
-                                    to="/about-2"
+                                    to="/about-1"
                                 >
                                     <span>
                                         <span className="text-1"> Our AI Process</span>

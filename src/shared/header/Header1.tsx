@@ -32,9 +32,9 @@ export default function Header1({ onOpenSearch, onToggleSidebar, onOpenHamburger
               <div className="at-header-logo">
                 <Link to="/" className="d-inline-flex align-items-center gap-2 text-decoration-none">
                   <img
-                    width={60}
-                    height={60}
-                    src="/assets/imgs/template/logo/LOGO.png"
+                    width={100}
+                    height={100}
+                    src="/assets/imgs/images/512x512 Black.png"
                     alt="ADS AI"
                   />
                  

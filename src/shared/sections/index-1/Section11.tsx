@@ -57,7 +57,7 @@ export default function Section11({ classList = "" }: { classList?: string }) {
                                     width={600}
                                     height={700}
                                     className="w-100"
-                                    alt="orisa" loading="lazy" />
+                                    alt="adsai" loading="lazy" />
                             </div>
                             
                             <h6 className="mb-15 pt-50">Need help with your ads?</h6>

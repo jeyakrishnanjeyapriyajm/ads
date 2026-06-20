@@ -57,11 +57,17 @@ export default function Section12() {
             className="at-banner-thumb fix w-100 scale-up-img p-relative changeless d-none d-lg-block"
         >
             <div ref={scaleUpRef} className="scale-up position-absolute top-0 bottom-0 start-0 end-0 overflow-hidden">
-                <img
-                    data-speed=".4"
-                    className="img-cover"
-                    src="/assets/imgs/images/img-24.jpg"
-                    alt="ADS AI" loading="lazy" />
+                <video
+  data-speed=".4"
+  className="img-cover"
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="auto"
+>
+  <source src="/assets/imgs/v/v-18.webm" type="video/webm" />
+</video>
             </div>
             <div className="position-absolute top-0 bottom-0 start-0 end-0">
                 <div className="container">
@@ -72,12 +78,12 @@ export default function Section12() {
                                     <Link to="/">
                                         <img
                                             data-width="30"
-                                            src="/assets/imgs/template/logo/favicon-dark.svg"
+                                            src="/assets/imgs/images/32x32 Black.png"
                                             alt="ADS AI"
                                             width={30}
                                             height={30}
                                             style={{ width: "auto", height: "auto" }} loading="lazy" />
-                                        <h6 className="fw-700 fz-24 text-white mb-0">ADS AI</h6>
+                                        {/* <h6 className="fw-700 fz-24 text-white mb-0">ADS AI</h6> */}
                                     </Link>
                                 </div>
                                 <Link

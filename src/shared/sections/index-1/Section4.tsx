@@ -8,12 +8,12 @@ const ARROW_SVG = (
 );
 
 const SERVICE_IMAGES = [
-    "/assets/imgs/images/img-1.jpg",
-    "/assets/imgs/images/img-2.jpg",
-    "/assets/imgs/images/img-3.jpg",
-    "/assets/imgs/images/img-4.jpg",
-   "/assets/imgs/images/img-5.jpg",
-    "/assets/imgs/images/img-6.jpg",
+    "/assets/imgs/v/v1/v-1.webm",
+    "/assets/imgs/v/v1/v-2.webm",
+    "/assets/imgs/v/v1/v-3.webm",
+    "/assets/imgs/v/v1/v-4.webm",
+    "/assets/imgs/v/v1/v-5.webm",
+    "/assets/imgs/v/v1/v-7.webm",
 ];
 
 const SERVICES = [
@@ -21,37 +21,37 @@ const SERVICES = [
         num: "01",
         title: "Campaigns",
         text: "We create smart AI-powered ad campaigns that reach the right audience and increase conversions.",
-        thumb: "/assets/imgs/images/img-1.jpg",
+        thumb: "/assets/imgs/v/v1/v-1.webm",
     },
     {
         num: "02",
         title: "Targeting",
         text: "We use AI and data insights to identify the best customers for your brand.",
-        thumb: "/assets/imgs/images/img-2.jpg",
+        thumb: "/assets/imgs/v/v1/v-2.webm",
     },
     {
         num: "03",
         title: "Creatives",
         text: "We generate high-performing ad creatives, captions, and content faster using AI tools.",
-        thumb: "/assets/imgs/images/img-3.jpg",
+        thumb: "/assets/imgs/v/v1/v-3.webm",
     },
     {
         num: "04",
         title: "Leads",
         text: "We build advertising strategies that attract quality leads and real business inquiries.",
-        thumb: "/assets/imgs/images/img-4.jpg",
+        thumb: "/assets/imgs/v/v1/v-4.webm",
     },
     {
         num: "05",
         title: "Optimization",
         text: "We monitor campaign data and improve ad performance for better results and lower waste.",
-        thumb: "/assets/imgs/images/img-5.jpg",
+        thumb: "/assets/imgs/v/v1/v-5.webm",
     },
     {
         num: "06",
         title: "Automation",
         text: "We automate follow-ups, reports, and customer journeys to save time and improve growth.",
-        thumb: "/assets/imgs/images/img-6.jpg",
+        thumb: "/assets/imgs/v/v1/v-7.webm",
     },
 ];
 
@@ -81,12 +81,18 @@ export default function Section4() {
                                 <div className="at-service-img-wrapper image-container">
                                     {SERVICE_IMAGES.map((src, i) => (
                                         <div key={i} className="hover-image">
-                                            <img
+                                            <video
                                                 className="thumb"
-                                                src={src}
-                                                alt="Service Image"
                                                 width={800}
-                                                height={600} loading="lazy" />
+                                                height={600}
+                                                autoPlay
+                                                loop
+                                                muted
+                                                playsInline
+                                                preload="auto"
+                                            >
+                                                <source src={src} type="video/webm" />
+                                            </video>
                                         </div>
                                     ))}
                                 </div>
@@ -112,7 +118,17 @@ export default function Section4() {
                                             </p>
                                         </div>
                                         <div className="thumb anim-zoomin">
-                                            <img src={s.thumb} alt="orisa" width={200} height={200} loading="lazy" />
+                                            <video
+                                                width={200}
+                                                height={200}
+                                                autoPlay
+                                                loop
+                                                muted
+                                                playsInline
+                                                preload="auto"
+                                            >
+                                                <source src={s.thumb} type="video/webm" />
+                                            </video>
                                         </div>
                                     </div>
                                 </Link>

@@ -68,45 +68,43 @@ export default function Section9() {
                                     </Link>
                                 </div>
                                 <div className="at-about-content pt-120">
-                                    <div className="d-flex gap-4 justify-content-center">
-                                        {LOCATION_SVG}
-                                        <div>
-                                            <h6 className="fw-600">We are here</h6>
-                                            <div className="d-flex flex-md-row flex-column gap-md-5 gap-4">
-                                                <span className="fz-font-md neutral-500 ps-md-5">
-                                                    Worldwide AI Marketing Services
-                                                    <br className="d-block" />
-                                                    Available Online
-                                                    <br className="d-block" />
-                                                    Phone:{" "}
-                                                    <span className="neutral-900">
-                                                        <a href="tel:+94770000000">+94 77 000 0000</a>
-                                                    </span>
-                                                    <br className="d-block" />
-                                                    Email:{" "}
-                                                    <span className="neutral-900">
-                                                        <a href="mailto:sales@adsai.com">sales@adsai.com</a>
-                                                    </span>
-                                                </span>
-                                                <span className="fz-font-md neutral-500">
-                                                    ADS AI Digital Advertising Agency
-                                                    <br className="d-block" />
-                                                    Colombo, Sri Lanka
-                                                    <br className="d-block" />
-                                                    Phone:{" "}
-                                                    <span className="neutral-900">
-                                                    <a href="tel:+94770000000">+94 77 000 0000</a>
-                                                    </span>
-                                                    <br className="d-block" />
-                                                     Email:{" "}
-                                                    <span className="neutral-900">
-                                                    <a href="mailto:hello@adsai.com">hello@adsai.com</a>
-                                                    </span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+    <div className="d-flex gap-4 justify-content-center">
+        {LOCATION_SVG}
+        <div>
+            <h6 className="fw-600">We are here</h6>
+            <div className="d-flex flex-md-row flex-column gap-md-5 gap-4">
+                <span className="fz-font-md neutral-500 ps-md-5">
+                    Email:
+                    <br className="d-block" />
+                    <span className="neutral-900">
+                        <a href="mailto:business@adsai.ai">business@adsai.ai</a>
+                    </span>
+                    <br className="d-block" />
+                    Phone:
+                    <br className="d-block" />
+                    <span className="neutral-900">
+                        <a href="tel:+919133187000">+91 91331 87000</a>
+                    </span>
+                    <br className="d-block" />
+                    <span className="neutral-900">
+                        <a href="tel:+919052204000">+91 90522 04000</a>
+                    </span>
+                </span>
+                <span className="fz-font-md neutral-500">
+                    Address:
+                    <br className="d-block" />
+                    Hollywood Digital VFX Studios Pvt. Ltd.
+                    <br className="d-block" />
+                    2nd Floor, Plot A-11, Moula Ali Industrial Area,
+                    <br className="d-block" />
+                    Near Rotomaker, Hyderabad,
+                    <br className="d-block" />
+                    Telangana – 500040, India
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
                             </div>
                         </div>
                         <div className="col-xxl-4 ms-xxl-auto col-lg-8">
