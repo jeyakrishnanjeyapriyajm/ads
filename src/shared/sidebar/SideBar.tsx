@@ -12,7 +12,14 @@ const AVATARS = ["avatar-10", "avatar-11", "avatar-12", "avatar-13", "avatar-14"
 
 function CloseIconSvg() {
   return (
-    <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg
+      width="37"
+      height="38"
+      viewBox="0 0 37 38"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
       <path
         d="M9.19141 9.80762L27.5762 28.1924"
         stroke="currentColor"
@@ -85,7 +92,12 @@ function SocialGrid() {
               fill="none"
               aria-hidden="true"
             >
-              <path fillRule="evenodd" clipRule="evenodd" d={item.path} fill="currentColor" />
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d={item.path}
+                fill="currentColor"
+              />
             </svg>
             <span>{item.label}</span>
           </a>
@@ -96,11 +108,23 @@ function SocialGrid() {
 }
 
 export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) {
-  const isAnyOpen = open || hamburgerOpen;
+  /*
+    Important:
+    - hamburgerOpen is for the main mobile menu.
+    - open is for the info/contact sidebar.
+    - On mobile, both were rendering together and creating duplicated menus.
+    - This makes them exclusive.
+  */
+
+  const isMenuOpen = hamburgerOpen;
+  const isInfoOpen = open && !hamburgerOpen;
+  const isAnyOpen = isMenuOpen || isInfoOpen;
 
   return (
     <OffcanvasMenuMount>
-      <MenuClone />
+      {/* Mount menu clone only for the main hamburger menu */}
+      {isMenuOpen && <MenuClone />}
+
       {/* Overlay */}
       <div
         className={`body-overlay sidebar-overlay ${isAnyOpen ? "apply" : ""}`}
@@ -112,18 +136,33 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
         aria-label="Close sidebar"
       />
 
-      {/* at-offcanvas-area */}
-      <div className="at-offcanvas-area" aria-hidden={!open}>
-        <div className={`at-offcanvas bg-[#04151e] ${open ? "opened" : ""}`}>
+      {/* Info / Contact Offcanvas - no mobile menu here */}
+      <div
+        className="at-offcanvas-area"
+        aria-hidden={!isInfoOpen}
+        style={{ display: isInfoOpen ? undefined : "none" }}
+      >
+        <div className={`at-offcanvas bg-[#04151e] ${isInfoOpen ? "opened" : ""}`}>
           <div className="at-offcanvas-top d-flex align-items-center justify-content-between">
             <div className="at-offcanvas-logo">
               <Link to="/" className="text-decoration-none d-inline-flex align-items-center gap-2">
-                <img data-width="30" src="/assets/imgs/images/512x512 Black.png" alt="Adsai" width={30} height={30} />
-                {/* <h6 className="fw-700 fz-24 mb-0">ADS AI</h6> */}
+                <img
+                  data-width="30"
+                  src="/assets/imgs/images/512x512 Black.png"
+                  alt="Adsai"
+                  width={30}
+                  height={30}
+                />
               </Link>
             </div>
+
             <div className="at-offcanvas-close-btn">
-              <button type="button" className="close-btn close-sidebar" aria-label="Close" onClick={onClose}>
+              <button
+                type="button"
+                className="close-btn close-sidebar"
+                aria-label="Close"
+                onClick={onClose}
+              >
                 <CloseIconSvg />
               </button>
             </div>
@@ -132,20 +171,26 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
           <div className="at-offcanvas-content d-none d-xl-block">
             <h5 className="at-offcanvas-title">Scale Your Brand With AI Video</h5>
             <p className="fz-font-lg">
-  AdsAI creates AI-powered ad films, AI films, corporate videos, product explainers,
-  documentaries, and social media video ads designed to engage audiences and deliver measurable results.
-</p>
-          </div>
-
-          <div className="at-offcanvas-menu d-xl-none pb-50">
-            <nav />
+              AdsAI creates AI-powered ad films, AI films, corporate videos,
+              product explainers, documentaries, and social media video ads
+              designed to engage audiences and deliver measurable results.
+            </p>
           </div>
 
           <div className="at-offcanvas-gallery d-none d-xl-block">
             <div className="sec-2-home-5__avatars-row d-flex gap-2">
               {AVATARS.map((name) => (
-                <div key={name} className="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                  <img className="img-cover" src={`/assets/imgs/template/avatar/${name}.webp`} alt="" width={80} height={80} />
+                <div
+                  key={name}
+                  className="sec-2-home-5__avatar-sm at-offcanvas-gallery-img"
+                >
+                  <img
+                    className="img-cover"
+                    src={`/assets/imgs/template/avatar/${name}.webp`}
+                    alt=""
+                    width={80}
+                    height={80}
+                  />
                 </div>
               ))}
             </div>
@@ -153,29 +198,31 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
 
           <div className="at-offcanvas-contact">
             <h5 className="at-offcanvas-title sm">Get in touch</h5>
-          <ul>
-  <li>
-    <a className="fz-font-lg" href="tel:+919133187000">
-      +91 91331 87000
-    </a>
-  </li>
-  <li>
-    <a className="fz-font-lg" href="tel:+919052204000">
-      +91 90522 04000
-    </a>
-  </li>
-  <li>
-    <a className="fz-font-lg" href="mailto:business@adsai.ai">
-      business@adsai.ai
-    </a>
-  </li>
-  <li>
-    <a className="fz-font-lg" href="#" onClick={(e) => e.preventDefault()}>
-      Shutter No 1 Ground Floor, Plot A-11, Survey No: 615 & 617, <br />
-      Moulali Industrial Area, Hyderabad, Telangana – 500040, India
-    </a>
-  </li>
-</ul>
+
+            <ul>
+              <li>
+                <a className="fz-font-lg" href="tel:+919133187000">
+                  +91 91331 87000
+                </a>
+              </li>
+              <li>
+                <a className="fz-font-lg" href="tel:+919052204000">
+                  +91 90522 04000
+                </a>
+              </li>
+              <li>
+                <a className="fz-font-lg" href="mailto:business@adsai.ai">
+                  business@adsai.ai
+                </a>
+              </li>
+              <li>
+                <a className="fz-font-lg" href="#" onClick={(e) => e.preventDefault()}>
+                  Shutter No 1 Ground Floor, Plot A-11, Survey No: 615 & 617,
+                  <br />
+                  Moulali Industrial Area, Hyderabad, Telangana – 500040, India
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div className="at-offcanvas-social">
@@ -185,9 +232,14 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
         </div>
       </div>
 
-      {/* at-offcanvas-2-area */}
-      <div className={`at-offcanvas-2-area ${hamburgerOpen ? "menu-open" : ""}`} aria-hidden={!hamburgerOpen}>
+      {/* Main Mobile Hamburger Menu */}
+      <div
+        className={`at-offcanvas-2-area ${isMenuOpen ? "menu-open" : ""}`}
+        aria-hidden={!isMenuOpen}
+        style={{ display: isMenuOpen ? undefined : "none" }}
+      >
         <div className="offcanvas-bg bg-[#04151e]" />
+
         <div className="at-offcanvas-2-wrapper offcanvas-menu sidebar-left bg-[#04151e]">
           <div className="at-offcanvas-2-left">
             <div className="at-header-logo d-flex justify-content-between align-items-center mb-50">
@@ -202,11 +254,18 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
                 />
                 <h6 className="fw-700 fz-24 mb-0">Adsai</h6>
               </Link>
-              <span className="hamburger-close-btn close-sidebar" role="button" tabIndex={0} aria-label="Close" onClick={onClose}>
+
+              <button
+                type="button"
+                className="hamburger-close-btn close-sidebar border-0 bg-transparent text-white"
+                aria-label="Close"
+                onClick={onClose}
+              >
                 <CloseIconSvg />
-              </span>
+              </button>
             </div>
 
+            {/* Only one nav target. MenuClone will clone menu here. */}
             <div className="at-offcanvas-menu counter-row">
               <nav />
             </div>
@@ -215,19 +274,17 @@ export default function SideBar({ open, hamburgerOpen, onClose }: SideBarProps) 
               <SocialGrid />
             </div>
 
-            <span
-              className="hamburger-close-btn hamburger-mobile-close-btn close-sidebar d-md-none"
-              role="button"
-              tabIndex={0}
+            <button
+              type="button"
+              className="hamburger-close-btn hamburger-mobile-close-btn close-sidebar d-md-none border-0 bg-transparent text-white"
               aria-label="Close"
               onClick={onClose}
             >
               CLOSE
-            </span>
+            </button>
           </div>
         </div>
       </div>
     </OffcanvasMenuMount>
   );
 }
-
