@@ -37224,3 +37224,50 @@ body.at-magic-cursor #magic-cursor {
 [data-bs-theme="dark"] .at-service-item .number {
   color: #ffffff !important;
 }
+
+/* Fix duplicated menu text animation */
+.at-link-swap {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+
+.at-link-swap .text-1,
+.at-link-swap .text-2 {
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.at-link-swap .text-2 {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+}
+
+/* Desktop hover animation */
+a:hover .at-link-swap .text-1,
+a.active .at-link-swap .text-1 {
+  transform: translateY(-100%);
+}
+
+a:hover .at-link-swap .text-2,
+a.active .at-link-swap .text-2 {
+  transform: translateY(-100%);
+}
+
+/* Mobile/offcanvas menu duplicate text fix */
+.at-offcanvas-menu .at-link-swap {
+  overflow: hidden;
+}
+
+.at-offcanvas-menu .at-link-swap .text-2 {
+  display: none;
+}
+
+/* Keep only one visible text in mobile menu */
+.at-offcanvas-menu .at-link-swap .text-1 {
+  transform: none !important;
+}
